@@ -10,3 +10,7 @@ An array is made with a length of 80, then the first two numbers are added as th
 A for loop will be executed 80 times, the first two times it just prints the first two fibonacci numbers, no need to generate them as they are hard coded.
 
 After that, the loop will generate fibonacciNumber[i], it does this by adding the last 2 numbers in the array, and then the newly generated number is printed in the console.
+
+# To fix
+
+Generating more numbers will give and error due to an overflow, that should'nt be too hard to fix later down the line. Once that is fixed i will make the app take in an input from the user asking how many numbers should be generated.
